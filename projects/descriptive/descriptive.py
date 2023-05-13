@@ -1,5 +1,5 @@
 import statistics
-from read_csv import get_file, get_formated_data
+from .read_csv import get_file, get_formated_data
 
 def media(data):
     return statistics.mean(data)

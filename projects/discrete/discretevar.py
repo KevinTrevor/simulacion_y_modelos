@@ -69,13 +69,13 @@ if __name__ == "__main__":
     binomial = Binomial(probability=base_probability, experiment_number=10)
     
     # Definicion Geométrica
-    success_index = 1
+    success_index = 4
     geometric = Geometric(probability=base_probability, success_number=success_index)
     
     # Definición de Poisson
     ocur_num = 5
     mean = 6
-    minutes = 15
+    minutes = 10
     time_interval = minutes * mean
     poisson = Poisson(ocurrencies_number=ocur_num, lamb=time_interval)
     

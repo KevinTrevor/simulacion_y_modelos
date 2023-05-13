@@ -1,5 +1,4 @@
 import unittest
-from throw_the_dice.dice_game import play_the_game
 
 BET = 100
 EXPECTED_AVERAGE = 5
